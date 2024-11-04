@@ -1,0 +1,48 @@
+@import url("./q1.css");
+@import url("./q2.css");
+@import url("./q3.css");
+@import url("./q4.css");
+@import url("./q5.css");
+@import url("./intro.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.animationContainer {
+  background: linear-gradient(
+    174deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(191, 234, 255, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
+  overflow-y: visible;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.accent {
+  color: #0219eb;
+  font-style: italic;
+}

@@ -1,10 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import MotionPathPlugin from "gsap/MotionPathPlugin";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "./styles/index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollToPlugin, MotionPathPlugin);
+
+// Scroll to top when page refreshes
+window.onbeforeunload = () => {
+  window.scrollTo(0, 20);
+};
+window.onload = () => {
+  window.scrollTo(0, 20);
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />

@@ -1,0 +1,51 @@
+#q2 {
+  background: linear-gradient(193deg, #ffffff 0%, rgb(38, 22, 131) 100%);
+}
+
+#q2title {
+  position: absolute;
+  left: 3%;
+  top: 20%;
+  font-size: 2em;
+  font-weight: 700;
+  z-index: 7;
+  max-width: 450px;
+  line-height: 3.5rem;
+  color: #efefef;
+  text-shadow: 3px 3px 5px #441547;
+  font-family: "Poppins", sans-serif;
+}
+
+#q2body {
+  z-index: 7;
+  font-weight: 600;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  width: 650px;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    193deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(205, 255, 254) 100%
+  );
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 4px #29bfff;
+}
+#blackboard,
+#teacher {
+  position: absolute;
+}
+#blackboard {
+  width: 800px;
+  left: 25%;
+  top: 5%;
+}
+#teacher {
+  height: 500px;
+  bottom: 10%;
+  right: 5%;
+}

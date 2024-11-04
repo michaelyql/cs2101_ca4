@@ -1,0 +1,43 @@
+#videocall {
+  position: absolute;
+  top: 2.5%;
+  left: 15%;
+  height: 95%;
+}
+
+#q4 {
+  background-color: #c0cbfd;
+}
+
+#q4title {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  font-size: 2em;
+  font-weight: 700;
+  z-index: 7;
+  max-width: 400px;
+  line-height: 3rem;
+  color: #303677;
+  text-shadow: 3px 3px 5px #ffffff;
+}
+
+#q4body {
+  z-index: 7;
+  font-weight: 600;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  width: 550px;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    193deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 224, 197) 100%
+  );
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 4px #d88c11;
+}

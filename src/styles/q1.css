@@ -1,0 +1,74 @@
+#earth {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  z-index: 6;
+}
+
+#q1 {
+  background-color: #35005e;
+  color: #e0e0e0;
+}
+
+#q1 > * {
+  position: absolute;
+}
+
+#q1title {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 7;
+  line-height: 3.5rem;
+}
+
+#q1fg,
+#q1mg,
+#q1bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#q1fg {
+  z-index: 4;
+  height: 30%;
+}
+#q1mg {
+  z-index: 3;
+  height: 35%;
+}
+#q1bg {
+  z-index: 2;
+  height: 45%;
+}
+#astronaut {
+  position: absolute;
+  bottom: 5%;
+  z-index: 5;
+  right: 15%;
+}
+#q1body {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  z-index: 7;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: black;
+  max-width: 600px;
+  transform: translateX(-50%) translateY(-50%);
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    193deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(249, 191, 255, 1) 100%
+  );
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 0 16px 4px #63146b;
+}

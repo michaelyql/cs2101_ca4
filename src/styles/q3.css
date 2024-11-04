@@ -1,0 +1,58 @@
+#q3 {
+  background-color: #494e67;
+}
+
+#q3title {
+  position: absolute;
+  left: 10%;
+  top: 2%;
+  font-size: 2em;
+  font-weight: 700;
+  z-index: 7;
+  max-width: 600px;
+  line-height: 3.5rem;
+  color: #fbfbfb;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 3px 3px 5px #292929;
+}
+
+#q3body {
+  z-index: 7;
+  font-weight: 600;
+  font-size: 1.25rem;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  width: 650px;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    193deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(255, 224, 197) 100%
+  );
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 4px #d88c11;
+}
+
+#seal,
+#speaker,
+#podium {
+  position: absolute;
+}
+#seal {
+  top: 0%;
+  left: 0;
+  height: 100%;
+}
+#podium {
+  right: 10%;
+  bottom: 0%;
+  z-index: 2;
+}
+#speaker {
+  right: 10%;
+  bottom: 30%;
+  z-index: 1;
+}

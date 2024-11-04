@@ -1,0 +1,14 @@
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .header {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #27448d;
+  line-height: 6rem;
+}

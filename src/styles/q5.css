@@ -1,0 +1,26 @@
+#q5 {
+  background-color: rgb(255, 255, 255);
+}
+
+#reviews {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  z-index: 1;
+}
+#code {
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  z-index: 0;
+  width: 50%;
+}
+#q5body {
+  z-index: 3;
+  position: absolute;
+  left: 2%;
+  top: 27.5%;
+  max-width: 700px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
