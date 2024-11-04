@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cs2101_ca4/static/css/main.0200aa4c.css",
+    "main.js": "/cs2101_ca4/static/js/main.8ea49003.js",
+    "static/js/453.bfb87897.chunk.js": "/cs2101_ca4/static/js/453.bfb87897.chunk.js",
+    "static/media/seal.png": "/cs2101_ca4/static/media/seal.15083f2585cd7074416b.png",
+    "static/media/videocall.png": "/cs2101_ca4/static/media/videocall.91005546e55d8eae4aa8.png",
+    "static/media/podium.png": "/cs2101_ca4/static/media/podium.a308f8d79574b9a1a62f.png",
+    "static/media/codecontainer.png": "/cs2101_ca4/static/media/codecontainer.5d42927e49bb05ff227f.png",
+    "static/media/blackboard.png": "/cs2101_ca4/static/media/blackboard.623f6ae0febdd6e023e7.png",
+    "static/media/earth.png": "/cs2101_ca4/static/media/earth.bde54d283457070e4f97.png",
+    "static/media/reviewinfo.png": "/cs2101_ca4/static/media/reviewinfo.0d85d045f171b399a906.png",
+    "static/media/teacher.png": "/cs2101_ca4/static/media/teacher.dc3cc1f8abb6a77639eb.png",
+    "static/media/speaker.png": "/cs2101_ca4/static/media/speaker.1e43e41f1fea50d6e97a.png",
+    "static/media/astronaut.png": "/cs2101_ca4/static/media/astronaut.1ee3b46dc92dfc05b0e5.png",
+    "index.html": "/cs2101_ca4/index.html",
+    "main.0200aa4c.css.map": "/cs2101_ca4/static/css/main.0200aa4c.css.map",
+    "main.8ea49003.js.map": "/cs2101_ca4/static/js/main.8ea49003.js.map",
+    "453.bfb87897.chunk.js.map": "/cs2101_ca4/static/js/453.bfb87897.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0200aa4c.css",
+    "static/js/main.8ea49003.js"
+  ]
+}
